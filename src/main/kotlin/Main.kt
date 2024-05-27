@@ -16,6 +16,8 @@ fun main() {
 
     val json = response.body()
 
+    val gson = Gson()
+
     val myGame = Game("Batman: Arkham Asylum Game of the Year Edition\",\"steamAppID",
         "https:\\/\\/cdn.cloudflare.steamstatic.com\\/steam\\/apps\\/35140\\/capsule_sm_120.jpg?t=1702934705")
 
