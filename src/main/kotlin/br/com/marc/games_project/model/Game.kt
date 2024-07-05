@@ -1,4 +1,4 @@
-package br.com.marc.games_project.modelo
+package br.com.marc.games_project.model
 
 data class Game (val Titulo : String,
                  val Capa : String ) {
